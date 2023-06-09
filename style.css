@@ -1,0 +1,10 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right,#00B4DB,#0083B0);
+}

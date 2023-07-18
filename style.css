@@ -10,11 +10,11 @@
 body{
     background-image: linear-gradient(to right,#00B4DB, #0083B0);
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: ra, sans-serif;
 }
 
 .branca{
-    background-color: white;
+    background-color: rgb(243, 243, 243);
     width: 80vw;
     height: 86vh;
     margin: auto;
@@ -38,7 +38,7 @@ h1{
 }
 
 p{
-    color: #BCBEC0;
+    color: #999999;
 }
 
 label{
@@ -52,8 +52,20 @@ input{
     border-radius: 25px;
 }
 
+input[type="password"]{
+    margin-bottom: 5px;
+}
+
 .forgot{
     margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: #A93159;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 .btr-login{

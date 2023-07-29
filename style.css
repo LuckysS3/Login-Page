@@ -53,6 +53,7 @@ input{
     margin-bottom: 25px;
     width: 367px;
     height: 35px;
+    padding-left: 15px;
     border-radius: 25px;
     border: 2px solid #a1a1a1a1;
 }
@@ -62,6 +63,7 @@ input[type="password"]{
 }
 
 .forgot{
+    margin-top: 9px;
     margin-bottom: 10px;
 }
 

@@ -13,6 +13,7 @@ body{
     background-image: linear-gradient(to right,#00B4DB, #0083B0);
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    overflow-y: hidden;
 }
 
 .branca{
@@ -58,12 +59,8 @@ input{
     border: 2px solid #a1a1a1a1;
 }
 
-input[type="password"]{
-    margin-bottom: 5px;
-}
-
 .forgot{
-    margin-top: 9px;
+    margin-top: -6px;
     margin-bottom: 10px;
 }
 
@@ -76,6 +73,12 @@ input[type="submit"]{
     font-weight: 500;
     border: none;
     margin-bottom: 15px;
+}
+
+i{
+    position: absolute;
+    left: 542px;
+    top: 317px;
 }
 
 input[type="submit"]:hover{
@@ -174,7 +177,7 @@ a{
     position: absolute;
     width: 600px;
     height: 600px;
-    left: 568px;
+    left: 600px;
     top: 22px;
 }
 

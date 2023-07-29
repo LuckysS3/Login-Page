@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <script src="script.js"></script>
         <title>Login</title>
     </head>
@@ -17,7 +18,8 @@
                     <label for="iemail">Email:</label>
                     <input type="email" name="email" id="iemail" placeholder="usermane@gmail.com"> 
                     <label for="password">Senha:</label> 
-                    <input type="password" name="pass" id="password" placeholder="Password">
+                    <input type="password" name="pass" id="ipassword" placeholder="Password">
+                    <i class="bi bi-eye" id="icon" onclick="mostrasenha()"></i>
                     <p class="forgot"><a class="click" href="#">Forgot Password? </a></p>
                     <input type="submit" value="Sing in">
                 </form>
